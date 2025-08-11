@@ -7,7 +7,7 @@ from db.database import Base, Session; # Se importan las clases Base, Session y 
 from models.movie import Movie as  ModelMovie; # Se importa el modelo Movie desde el módulo movie para definir la estructura de las películas en la base de datos
 from fastapi.encoders import jsonable_encoder; # Se importa jsonable_encoder para convertir objetos de Pydantic a JSON serializable
 
-
+# josu
 routerMovie = APIRouter() #Se crea una instancia de APIRouter para manejar las rutas relacionadas con las películas
 
 # Clase para manejar la autenticación Bearer con JWT
